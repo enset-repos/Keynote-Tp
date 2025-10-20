@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/Keynote-service/pom.xml" />
         <option value="$PROJECT_DIR$/Conference-service/pom.xml" />
         <option value="$PROJECT_DIR$/Gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Discovery-service/pom.xml" />
       </list>
     </option>
   </component>

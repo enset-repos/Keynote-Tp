@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Conference-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Discovery-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Gateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Keynote-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

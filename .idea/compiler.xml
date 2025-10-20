@@ -27,12 +27,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Gateway-service" />
+        <module name="Discovery-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Conference-service" options="-parameters" />
+      <module name="Discovery-service" options="-parameters" />
       <module name="Gateway-service" options="-parameters" />
       <module name="Keynote-service" options="-parameters" />
       <module name="Micro-services" options="-parameters" />
