@@ -1,0 +1,28 @@
+server:
+  port: 8888
+spring:
+  discovery:
+    enabled: false
+    config:
+      enabled: false
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: keynote-service
+              uri: http://localhost:8080
+              predicates:
+                - Path=/api/keynotes/**
+            - id: conference-service
+              uri: http://localhost:8081
+              predicates:
+                - Path=/api/conferences/**
+
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
